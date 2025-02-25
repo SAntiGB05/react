@@ -1,7 +1,9 @@
+import { Greet } from "./assets/components/Greet"
+
 export const App = () =>{
   return(
     <>
-    <h1>Hola</h1>
+    <Greet />
     </>
   )
 }
